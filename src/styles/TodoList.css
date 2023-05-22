@@ -1,0 +1,45 @@
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.ButtonContainer {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.DeleteButton {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.DeleteButton:hover {
+  background-color: #66bb6a;
+}
+
+.TodoRows {
+  border: 10px;
+  border-color: black;
+  border-width: 5px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.AddTodo {
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.AddTodo input:before {
+  content: "Test ";
+}
